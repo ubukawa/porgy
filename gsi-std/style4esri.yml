@@ -1,10 +1,10 @@
 version: 8
+name: GSI Vector without labels
 glyphs: https://maps.gsi.go.jp/xyz/noto-jp/{fontstack}/{range}.pbf
 sources:
   gsibv-vectortile-source-1-4-16:
     type: vector
-    tiles:
-      - https://cyberjapandata.gsi.go.jp/xyz/experimental_bvmap/{z}/{x}/{y}.pbf
+    url: https://www.unvt-test.com/esriIF/gsimaps-vector-nolabel/VectorTileServer
     minzoom: 4
     maxzoom: 16
     attribution: >-
