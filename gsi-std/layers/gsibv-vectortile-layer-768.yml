@@ -1,0 +1,20 @@
+id: gsibv-vectortile-layer-768
+type: fill
+source: gsibv-vectortile-source-1-4-16
+source-layer: waterarea
+metadata:
+  layer-id: layer-550
+  title: 水域
+  path: 水域
+  added: 1
+minzoom: 17
+maxzoom: 18
+filter:
+  - all
+  - - in
+    - ftCode
+    - 5000
+layout:
+  visibility: visible
+paint:
+  fill-color: rgb(254,254,255)

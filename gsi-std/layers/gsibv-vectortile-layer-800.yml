@@ -1,0 +1,23 @@
+id: gsibv-vectortile-layer-800
+type: fill
+source: gsibv-vectortile-source-1-4-16
+source-layer: landforma
+metadata:
+  layer-id: layer-553
+  title: 万年雪
+  path: 地形-万年雪
+  gsi-fill-hatch-style: dot
+  fill-color: rgba(20,90,255,1)
+  added: 1
+  fill-pattern: '-gsibv-hatch-dot-4-20,90,255,1-'
+minzoom: 14
+maxzoom: 17
+filter:
+  - all
+  - - in
+    - ftCode
+    - 7402
+layout:
+  visibility: visible
+paint:
+  fill-color: rgba(153,183,255,1)

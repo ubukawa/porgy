@@ -1,0 +1,23 @@
+id: gsibv-vectortile-layer-780
+type: fill
+source: gsibv-vectortile-source-1-4-16
+source-layer: landforma
+metadata:
+  layer-id: layer-552
+  title: 湿地
+  path: 地形-湿地
+  gsi-fill-hatch-style: minus
+  fill-color: rgba(20,90,255,1)
+  added: 1
+  fill-pattern: '-gsibv-hatch-minus-12-20,90,255,1-'
+minzoom: 14
+maxzoom: 17
+filter:
+  - all
+  - - in
+    - ftCode
+    - 7401
+layout:
+  visibility: visible
+paint:
+  fill-color: rgba(153,183,255,1)
